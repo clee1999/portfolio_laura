@@ -1,0 +1,52 @@
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  h1 {
+    color: #4f3838;
+    font-size: 64px !important;
+  }
+
+  p {
+    font-size: 24px !important;
+  }
+
+  h2 {
+    color: #4f3838;
+    font-size: 36px !important;
+  }
+  .bloc-white {
+    background: white;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .masthead {
+    background-image: url("../../assets/background-desktop/banniere_laura_1920x1080.jpeg");
+    height: 50vh;
+    h1 {
+      font-size: 24px !important;
+    }
+
+    p {
+      font-size: 10px !important;
+    }
+
+    h2 {
+      font-size: 14px !important;
+    }
+  }
+
+  .button-water {
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .masthead {
+    background-image: url("../../assets/background-desktop/banniere_laura_1920x1080.jpeg");
+  }
+}

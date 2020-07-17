@@ -1,0 +1,30 @@
+.bloc-title {
+  background: #ece7e7;
+  width: 50%;
+  z-index: 1;
+
+  h1 {
+    font-size: 96px !important;
+  }
+}
+
+.bloc-project {
+  padding-top: 100px;
+  background: #e0d0d0;
+  position: relative;
+  margin-top: -50px;
+  z-index: -2;
+}
+
+@media (max-width: 575.98px) {
+  .bloc-title {
+    width: 80%;
+    h1 {
+      font-size: 36px !important;
+    }
+  }
+
+  .bloc-project {
+    padding-top: 50px;
+  }
+}

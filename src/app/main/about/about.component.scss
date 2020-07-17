@@ -1,0 +1,32 @@
+.bloc-project {
+  background: #ece7e7;
+  position: absolute;
+  right: 0px;
+  z-index: 2;
+  width: 65%;
+  height: 40%;
+
+  h1 {
+    font-size: 96px !important;
+    margin-top: -60px;
+    position: absolute;
+  }
+}
+
+.bloc-des {
+  position: absolute;
+  left: 0px;
+  height: 40%;
+  margin-top: 130px;
+  background: #e0d0d0;
+  width: 65%;
+  z-index: 100;
+}
+
+@media (max-width: 575.98px) {
+  .bloc-project {
+    h1 {
+      font-size: 36px !important;
+    }
+  }
+}

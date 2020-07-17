@@ -1,0 +1,38 @@
+h1 {
+  font-size: 96px !important;
+}
+.bloc-project {
+  background: #e0d0d0;
+  position: relative;
+  margin-top: -80px;
+  z-index: -2;
+  padding: 150px;
+
+  h2 {
+    color: #ffffff;
+    font-size: 48px !important;
+  }
+
+  .date {
+    width: 20%;
+  }
+
+  .description {
+    width: 80%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 36px !important;
+  }
+
+  .bloc-project {
+    h2 {
+      font-size: 26px !important;
+    }
+
+    padding: 19px 5px 5px 5px;
+    margin-top: 50px;
+  }
+}
